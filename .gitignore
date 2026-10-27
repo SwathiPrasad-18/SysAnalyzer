@@ -1,0 +1,51 @@
+﻿# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+secrets/
+credentials/
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs, generated reports and local exports
+*.log
+logs/
+exports/
+reports/
+sysanalyzer_*.json
+
+# Temporary files and backups
+*.backup
+*.bak
+*.tmp
+*.old
+
+# Compiled application
+/ai-sysanalyzer
+/ai-sysanalyzer.exe
+/target/
+
+# Local backup files
+*.backup
+*.bak
+*.tmp
+*.old
+
+# Local source dumps
+gui_source_dump.txt
+
